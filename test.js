@@ -1,8 +1,8 @@
 const jsonTree = {
-  "counters": [
+  "counters": [ 
     {
       "thing": "General",
-      "localisation": "N+1",
+      "localisation": "N+5",
       "nom": "Compteur General",
       "id": 1,
       "docs": { "matterport": "http:babab", "autre": "http:erer" },
@@ -39,6 +39,133 @@ const jsonTree = {
 
 
 
+// const twDataJson = {
+// 	"counters": [
+// 		{
+// 			"Fabricant": "ENERDIS",
+// 			"Localisation": "SS1 - local TGBT",
+// 			"Nom": "Compteur Général Electricité",
+// 			"child": [
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "RDC A",
+// 					"Nom": "Compteur TD RDC A",
+// 					"child": [],
+// 					"id": "N7K0tJ2DIDKuSLhJBAnZJOiCRGeZu6Ms",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+0_Zone_A_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "RDC B",
+// 					"Nom": "Compteur TD RDC B",
+// 					"child": [],
+// 					"id": "xlATZfaexUFqCbzN7gOl6b2JBESJ174R",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+0_Zone_B_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+1 A",
+// 					"Nom": "Compteur TD R+1 A",
+// 					"child": [],
+// 					"id": "7HSs0UQzdI7BObOLlL6WTTDzRb0bZpAc",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+1_Zone_A_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+1 B",
+// 					"Nom": "Compteur TD R+1 B",
+// 					"child": [],
+// 					"id": "rPSlU0H1S7xcfoeE4eRhFCwrooTyscnw",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+1_Zone_B_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+2 A",
+// 					"Nom": "Compteur TD R+2 A",
+// 					"child": [],
+// 					"id": "C49i9yFPB8OUUUFHZ9rFSpyoLF0bO5Se",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+2_Zone_A_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+3 A",
+// 					"Nom": "Compteur TD R+3 A",
+// 					"child": [],
+// 					"id": "r0AmKOsaXtC7MOD46xkpllT542N9tZ1y",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+3_Zone_A_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+3 B",
+// 					"Nom": "Compteur TD R+3 B",
+// 					"child": [],
+// 					"id": "6T0wI7kwg4wTsUAkuiiTpB1aPvoMkFeI",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+3_Zone_B_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENEDIS",
+// 					"Localisation": "R+4 A",
+// 					"Nom": "Compteur TD R+4 A",
+// 					"child": [],
+// 					"id": "vINA8z5DtT4cNEXPtkI4VPVNCVaMdLPx",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+4_Zone_A_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+4 B",
+// 					"Nom": "Compteur TD R+4 B",
+// 					"child": [],
+// 					"id": "V5vX28nGUm31cl917JWi7G9XffTqRboz",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+4_Zone_B_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "SS1 - local TGBT",
+// 					"Nom": "Compteur Ascenseur",
+// 					"child": [],
+// 					"id": "ol9daRTuBExpqXtHeQ6B0fNDpIffH0dH",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_ASC_Id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "SS1 - local TGBT",
+// 					"Nom": "Compteur SG SS1",
+// 					"child": [],
+// 					"id": "TKT9bQOBRM8DvJnsZbhBPgSs08tqwkE0",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_SG_SS1_Id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "SS1 - local TGBT",
+// 					"Nom": "Compteur SG RDC",
+// 					"child": [],
+// 					"id": "4r6p0CKfFcBSw5I1E3VVSbNxp9HPUSo6",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_SG_RDC_Id_1"
+// 				},
+// 				{
+// 					"Fabricant": "ENERDIS",
+// 					"Localisation": "R+2 B",
+// 					"Nom": "Compteur TD R+2 B",
+// 					"child": [],
+// 					"id": "MmsaxpJK2mE2wVmCm2xLVLra7nOxCk3H",
+// 					"thing": "SEXTANT_Compteurs_ENERGY2_R+2_Zone_B_id_1"
+// 				},
+// 				{
+// 					"Fabricant": "virtuel",
+// 					"Localisation": "virtuel",
+// 					"Nom": "Autre",
+// 					"child": [],
+// 					"compteur": "other"
+// 				}
+// 			],
+// 			"id": "yhkeBWO2LQmzot7l3su43tiT9sXOBxcH",
+// 			"thing": "SEXTANT_Compteurs_ENERGY2_General_Id_1"
+// 		}
+// 	],
+//     };
+
+
+
 // treeCounter = (jsonTree.counters[0]);
 
 // console.log((Object.keys(treeCounter)));
@@ -55,7 +182,7 @@ function addInfos(id, nom, localisation ){
   infosData.push({
     name: nom,
     description: localisation,
-    id: id,
+    id: String(id),
     title: "<a href='https://google.com' target='_blank'>ⓘ</a> <a href='https://billy.com'  target='_blank'>📄</a>"
   })
 }
@@ -63,7 +190,7 @@ function addInfos(id, nom, localisation ){
 function addData(parent, data){
   data.map(({child, id, localisation, nom}) => {
     addInfos(id, nom, localisation)
-    dataHighcharts.push([String(parent), id])
+    dataHighcharts.push([String(parent), String(id)])
     if (child.length > 0) addData(id, child)
   })
 }
@@ -73,19 +200,18 @@ jsonTree.counters.map(({child, id, localisation, nom}) => {
   if (child.length > 0){
     addData(id, child)
   }else{
-    dataHighcharts.push([id])
+    dataHighcharts.push([String(id)])
   }
 });
 
-console.log(dataHighcharts)
+// console.log(dataHighcharts);
+
+// console.log(dataHighcharts)
 console.log(infosData)
 
+// treeCounter = (jsonTree.counters[0]);
 
-
-
-treeCounter = (jsonTree.counters[0]);
-
-
+// console.log(String(2));
 
 // let finalarray = [];
 
